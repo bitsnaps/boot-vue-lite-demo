@@ -47,7 +47,7 @@
     "jsdom": "^22.1.0",
     "typescript": "^5.2.2",
     "unocss": "^0.57.2",
-    "unocss-preset-daisy": "^7.0.0",
+    "unocss-preset-daisy": "2.0.0",
     "unocss-preset-ease": "^0.0.3",
     "unplugin-auto-import": "^0.16.7",
     "unplugin-icons": "^0.17.3",

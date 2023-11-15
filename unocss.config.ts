@@ -11,9 +11,7 @@ export default defineConfig({
     presetIcons({
       scale: 1.5,
     }),
-    presetDaisy({
-      themes: true,
-    }),
+    presetDaisy(/* { themes: true } */), // unocss-preset-daisy>2.0.0
   ],
   transformers: [
     transformerDirectives(),

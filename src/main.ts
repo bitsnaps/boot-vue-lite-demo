@@ -14,6 +14,8 @@ import App from "~/App.vue";
 // reset css
 import "@kirklin/reset-css/kirklin.css";
 import "~/styles/main.css";
+// import '@kidonng/daisyui/index.css'
+import 'daisyui/dist/full.css'
 import "uno.css";
 
 const app = createApp(App);
