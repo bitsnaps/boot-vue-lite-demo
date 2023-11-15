@@ -1,9 +1,9 @@
 {
   "name": "boot-vue",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
-  "description": "Vue starter template with UnoCSS Lite",
+  "description": "Vue 3 starter template with UnoCSS, DaisyUI, Vite, TypeScript. Lite edition",
   "keywords": [
     "BootVue",
     "boot-vue",
@@ -11,7 +11,8 @@
     "unocss",
     "fast",
     "boot",
-    "lite"
+    "lite",
+    "vue3"
   ],
   "main": "src/main.ts",
   "scripts": {
