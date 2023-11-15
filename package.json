@@ -3,7 +3,6 @@
   "type": "module",
   "version": "0.0.1",
   "private": true,
-  "packageManager": "pnpm@7.6.0",
   "description": "Vue starter template with UnoCSS Lite",
   "keywords": [
     "BootVue",

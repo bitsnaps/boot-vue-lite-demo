@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useI18n } from "vue-i18n";
-import { logger } from "@kirklin/logger";
+//import { logger } from "@kirklin/logger";
 import { themeList } from "./data";
 import type { CustomTheme } from "~/layouts/Navbar/components/ThemeChange/types";
 
@@ -77,7 +77,8 @@ function changeTheme(event: MouseEvent, theme: CustomTheme) {
       );
     });
   } catch (error: unknown) {
-    logger.error(`Failed to change theme : ${error instanceof Error ? error.message : ""}`);
+    //logger.error(`Failed to change theme : ${error instanceof Error ? error.message : ""}`);
+    console.error(error);
   } finally {
     mode.value = theme;
   }
